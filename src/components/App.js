@@ -6,9 +6,9 @@ export default function App() {
 
   return (
     <>
-      <div class="ball">
+      <div className="ball">
         <h1
-          class="count"
+          className="count"
           onDoubleClick={() => {
             alert("cant edit it");
           }}
@@ -16,7 +16,7 @@ export default function App() {
           {count}
         </h1>
         <button
-          class="increment-button"
+          className="increment-button"
           onClick={() => {
             setCount(count + 1);
           }}
